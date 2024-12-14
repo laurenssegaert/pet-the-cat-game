@@ -40,7 +40,7 @@ export default function PetTheCatGame() {
         Mood: {getCatMood()}
       </p>
       <img
-        src="https://raw.githubusercontent.com/laurenssegaert/<pet-the-cat-game>/main/public/cat.png"
+        src="https://i.imgur.com/8QyzMch.png"
         alt="Pixelated Cat"
         style={{
           width: "200px",
