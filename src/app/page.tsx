@@ -83,3 +83,18 @@ export default function PetTheCatGame() {
     </main>
   );
 }
+
+const frame = {
+  version: "v2",
+  imageUrl: "https://pet-the-cat-game.vercel.app/cat.png", // Hosted image
+  button: {
+    title: "Play Pet the Cat",
+    action: {
+      type: "launch_frame",
+      name: "Pet the Cat Game",
+      url: "https://pet-the-cat-game.vercel.app", // Hosted app URL
+      splashImageUrl: "https://pet-the-cat-game.vercel.app/cat.png", // Hosted image
+      splashBackgroundColor: "#B77050", // Match app's background
+    },
+  },
+};
